@@ -21,6 +21,7 @@ async fn run_uri() -> ashpd::Result<()> {
         .await?;
     Ok(())
 }
+
 #[tokio::main(flavor = "current_thread")]
 async fn main() -> ashpd::Result<()> {
     run().await?;
